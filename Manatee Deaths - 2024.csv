@@ -1,0 +1,566 @@
+County,Date,Field_ID,Sex,Size_cm,Waterway,City,Probable_Cause
+Miami-Dade,2024-01-01,MSE24001,M,179,C-8 Canal,Miami,Human Related: Other
+Lake,2024-01-02,MEC24001,F,320,St. Johns River,Deland,Natural: Other
+Lake,2024-01-02,MEC24002,U,52,St. Johns River,Deland,Perinatal (<= 150 cm)
+Lake,2024-01-02,MEC24003,M,48,St. Johns River,Deland,Perinatal (<= 150 cm)
+Citrus,2024-01-03,MNW24001,U,300,Withlacoochee River,Inglis,Verified; Not Necropsied
+Lee,2024-01-03,MSW24001,F,259,Orange River,Ft. Myers,Undetermined: Too Decomposed
+Indian River,2024-01-05,MEC24004,M,235,Sebastian River,Sebastian,Natural: Other
+Clay,2024-01-05,MNE24001,F,253,St. Johns River,Fleming Island,Natural: Cold Stress
+Hernando,2024-01-05,MNW24002,F,332,Mud River,Weeki Wachee,Natural: Other
+Citrus,2024-01-06,MNW24003,F,215,Kings Bay,Crystal River,Verified; Not Necropsied
+Citrus,2024-01-06,SWFTm2358,F,361,Homosassa River,Homosassa,Undetermined: Other
+Citrus,2024-01-07,MNW24004,F,194,Kings Bay,Crystal River,Natural: Other
+Brevard,2024-01-08,MEC24005,F,292,Indian River,Cocoa,Undetermined: Other
+Citrus,2024-01-08,MNW24005,F,151,Homosassa River,Homosassa,Natural: Other
+Broward,2024-01-08,MSE24002,F,359,Stranahan River,Ft. Lauderdale,Human Related: Watercraft Collision
+Citrus,2024-01-08,SWFTm2402,F,292,Kings Bay,Crystal River,Natural: Other
+Sarasota,2024-01-10,LPZ103675,F,254,Roberts Bay,Venice,Human Related: Watercraft Collision
+Miami-Dade,2024-01-10,MSE24003,U,300,Terrapin Bay,Flamingo,Verified; Not Necropsied
+Bay,2024-01-11,MNW24006,M,260,East Bay,Panama City,Verified; Not Necropsied
+Miami-Dade,2024-01-11,MSE24004,F,267,Biscayne Bay,Miami Beach,Human Related: Watercraft Collision
+Lee,2024-01-11,MSW24002,F,143,San Carlos Bay,Ft. Myers,Perinatal (<= 150 cm)
+Lee,2024-01-12,MSW24003,M,287,Orange River,Ft. Myers,Undetermined: Too Decomposed
+Franklin,2024-01-14,MNW24007,M,210,Saint George Sound,St. George Island,Verified; Not Necropsied
+Palm Beach,2024-01-15,MSE24005,M,289,Lake Worth Lagoon,Hypoluxo,Human Related: Watercraft Collision
+Franklin,2024-01-16,MNW24008,M,215,St. George Sound,Carrabelle,Verified; Not Necropsied
+Bay,2024-01-18,MNW24009,M,251,Saint Joseph Bay,Port St. Joe,Natural: Cold Stress
+Lee,2024-01-18,MSW24004,M,300,Mullock Creek,Ft. Myers,Verified; Not Necropsied
+Brevard,2024-01-19,MEC24006,F,82,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Lee,2024-01-19,MSW24005,F,177,Orange River,Ft. Myers,Verified; Not Necropsied
+Lee,2024-01-19,MSW24006,F,310,Caloosahatchee River,Alva,Verified; Not Necropsied
+Duval,2024-01-20,MNE24002,M,280,Atlantic Ocean,Neptune Beach,Verified; Not Necropsied
+Duval,2024-01-20,MNE24003,M,294,Durbin Creek,Jacksonville,Natural: Cold Stress
+Wakulla,2024-01-20,MNW24010,F,340,St. Marks River,St. Marks,Human Related: Other
+Wakulla,2024-01-21,MNW24011,M,268,Ochlockonee Bay,Panacea,Verified; Not Necropsied
+Franklin,2024-01-22,MNW24012,M,250,Carrabelle River,Carrabelle,Verified; Not Necropsied
+Citrus,2024-01-23,MNW24013,F,160,Homosassa River,Homosassa,Natural: Other
+Brevard,2024-01-24,MEC24007,F,93,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Lake,2024-01-24,MEC24008,M,321,St. Johns River,DeLand,Natural: Cold Stress
+Citrus,2024-01-24,MNW24014,U,230,Crawford Creek,Homosassa,Verified; Not Necropsied
+Lee,2024-01-25,MSW24007,F,242,Caloosahatchee River,Alva,Natural: Cold Stress
+Brevard,2024-01-26,MEC24009,M,260,Grand Canal,Satellite Beach,Natural: Other
+Volusia,2024-01-26,MEC24011,M,226,Indian River North,Edgewater,Verified; Not Necropsied
+Citrus,2024-01-26,MNW24015,F,196,Salt River,Crystal River,Natural: Other
+Lee,2024-01-26,MSW24008,F,219,Caloosahatchee River,Cape Coral,Verified; Not Necropsied
+Glades,2024-01-26,SWFTm2355,M,295,Caloosahatchee River,Labelle,Undetermined: Other
+Volusia,2024-01-27,MEC24010,M,270,St. Johns River,DeBary,Natural: Other
+Citrus,2024-01-27,MNW24016,U,320,Salt River,Crystal River,Verified; Not Necropsied
+Citrus,2024-01-28,MNW24017,U,250,Crystal Bay,Yankee Town,Verified; Not Necropsied
+Miami-Dade,2024-01-28,MSE24006,M,211,Biscayne Bay,North Bay Village,Human Related: Watercraft Collision
+Lee,2024-01-28,MSW24009,F,263,Orange River,Ft. Myers,Verified; Not Necropsied
+Levy,2024-01-29,MNW24018,F,227,Suwannee River,Suwannee,Verified; Not Necropsied
+Monroe,2024-01-30,MSW24010,F,300,Hells Bay,Flamingo,Verified; Not Necropsied
+Brevard,2024-01-31,MEC24012,F,175,Sebastian River,Micco,Natural: Other
+Hernando,2024-01-31,MNW24019,M,292,Mud River,Spring Hill,Natural: Other
+Franklin,2024-01-31,MNW24020,F,230,Apalachicola River,Apalachicola,Verified; Not Necropsied
+Monroe,2024-01-31,MSW24011,F,189,Florida Bay,Flamingo,Human Related: Watercraft Collision
+Levy,2024-02-01,MNW24021,U,150,Waccasassa River,Inglis,Perinatal (<= 150 cm)
+Taylor,2024-02-01,MNW24022,M,275,Steinhatchee River,Steinhatchee,Natural: Cold Stress
+Bay,2024-02-01,MNW24023,F,200,Fred Bayou,Panama City,Verified; Not Necropsied
+Broward,2024-02-01,MSE24007,U,180,Stranahan River,Dania Beach,Verified; Not Necropsied
+Lee,2024-02-01,MSW24012,F,153,Orange River,Ft. Myers,Natural: Other
+Glades,2024-02-01,MSW24013,U,250,Lake Hicpochee,Moore Haven,Verified; Not Necropsied
+Brevard,2024-02-03,MEC24013,M,284,Indian River,Titusville,Human Related: Watercraft Collision
+Volusia,2024-02-03,MNE24004,M,100,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Monroe,2024-02-03,MSE24008,F,334,Buttonwood Sound,Key Largo,Verified; Not Necropsied
+Charlotte,2024-02-03,MSW24014,F,223,Peace River,Punta Gorda,Verified; Not Necropsied
+Brevard,2024-02-04,MEC24014,M,77,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-02-04,MEC24015,M,99,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Monroe,2024-02-04,MSE24009,F,255,Atlantic Ocean,Key Largo,Natural: Other
+Lee,2024-02-04,MSW24015,F,122,Caloosahatchee River,Cape Coral,Perinatal (<= 150 cm)
+Volusia,2024-02-05,MEC24016,F,109,Indian River North,Edgewater,Perinatal (<= 150 cm)
+Citrus,2024-02-05,MNW24024,F,210,Homosassa River,Homosassa,Verified; Not Necropsied
+Citrus,2024-02-05,MNW24025,U,275,Rocky Cove,Crystal River,Verified; Not Necropsied
+Lee,2024-02-05,MSW24016,F,390,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Brevard,2024-02-06,MEC24017,M,88,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Hernando,2024-02-06,MNW24026,M,317,Mud River,Spring Hill,Natural: Other
+Hernando,2024-02-07,MNW24027,F,318,Mud River,Spring Hill,Natural: Other
+Hernando,2024-02-07,MNW24028,M,353,Mud River,Weeki Wachee,Natural: Other
+Martin,2024-02-07,MSE24010,M,273,St. Lucie Canal,Port Mayaca,Human Related: Watercraft Collision
+Lee,2024-02-07,MSW24017,F,280,Caloosahatchee River,Cape Coral,Verified; Not Necropsied
+Dixie,2024-02-08,MNW24029,M,280,Suwannee River,Suwannee,Verified; Not Necropsied
+Manatee,2024-02-08,MNW24030,F,293,Braden River,Bradenton,Verified; Not Necropsied
+Lee,2024-02-08,MSW24018,M,187,Gulf of Mexico,Ft. Myers Beach,Verified; Not Necropsied
+Citrus,2024-02-09,MNW24031,F,266,Crystal River,Crystal River,Natural: Other
+Martin,2024-02-09,MSE24011,F,103,Manatee Pocket,Stuart,Perinatal (<= 150 cm)
+Bay,2024-02-10,MNW24032,M,200,Sandy Creek,Panama City,Verified; Not Necropsied
+Miami-Dade,2024-02-11,MSE24012,M,276,Wagner Creek,Miami,Natural: Other
+Lee,2024-02-11,MSW24019,F,168,Caloosahatchee River,North Ft. Myers,Verified; Not Necropsied
+Citrus,2024-02-12,MNW24033,F,239,Crystal River,Crystal River,Verified; Not Necropsied
+Okaloosa,2024-02-12,MNW24034,M,230,Santa Rosa Sound,Hurlburt Field,Verified; Not Necropsied
+Lee,2024-02-12,MSW24020,F,305,Caloosahatchee River,Cape Coral,Human Related: Watercraft Collision
+Brevard,2024-02-13,MEC24018,M,80,Indian River,Rockledge,Perinatal (<= 150 cm)
+Monroe,2024-02-14,MSW24021,F,165,Shark River,Flamingo,Verified; Not Necropsied
+Lee,2024-02-14,MSW24022,U,250,Estero Bay,Ft. Myers Beach,Verified; Not Necropsied
+Lee,2024-02-14,MSW24023,F,206,Whiskey Creek,Ft. Myers,Verified; Not Necropsied
+Citrus,2024-02-15,MNW24035,F,300,Halls River,Homosassa,Verified; Not Necropsied
+Miami-Dade,2024-02-15,MSE24013,F,209,Dumfoundling Bay,Aventrua,Human Related: Watercraft Collision
+Broward,2024-02-15,MSE24014,M,100,Middle River,Oakland Park,Perinatal (<= 150 cm)
+Flagler,2024-02-16,MNE24005,F,100,Matanzas River,Flagler Beach,Perinatal (<= 150 cm)
+Manatee,2024-02-16,MNW24036,F,322,Manatee River,Bradenton,Verified; Not Necropsied
+Lee,2024-02-16,MSW24024,M,283,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Monroe,2024-02-18,MSE24015,M,300,Florida Bay,Islamorda,Verified; Not Necropsied
+Franklin,2024-02-19,MNW24037,F,200,Alligator Harbor,St. Teresa,Verified; Not Necropsied
+Miami-Dade,2024-02-19,MSE24016,M,226,Biscayne Bay,Miami,Natural: Other
+Lee,2024-02-19,MSW24025,M,214,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Collier,2024-02-19,MSW24026,M,332,Sanctuary Sound,Marco Island,Human Related: Watercraft Collision
+Escambia,2024-02-20,MNW24038,M,225,Perdido Bay,Pensacola,Verified; Not Necropsied
+Lee,2024-02-20,MSW24027,M,258,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Lee,2024-02-20,MSW24028,M,211,Caloosahatchee River,Alva,Verified; Not Necropsied
+Lee,2024-02-21,MSW24029,F,170,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Volusia,2024-02-22,MEC24019,F,317,Mosquito Lagoon,New Smyrna Beach,Natural: Other
+Lee,2024-02-23,MSW24030,F,187,Matlacha Pass,Cape Coral,Verified; Not Necropsied
+Lee,2024-02-23,MSW24037,F,223,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Manatee,2024-02-24,MNW24039,M,166,Sarasota Bay,Bradenton Beach,Natural: Cold Stress
+Palm Beach,2024-02-24,MSE24017,F,167,Rim Canal,South Bay,Natural: Cold Stress
+Lee,2024-02-24,MSW24031,F,235,Caloosahatchee River,Alva,Verified; Not Necropsied
+Hillsborough,2024-02-25,MNW24040,U,260,Little Manatee River,Wimauma,Verified; Not Necropsied
+Lee,2024-02-25,MSW24032,M,269,Orange River,Ft. Myers,Verified; Not Necropsied
+Lee,2024-02-25,MSW24033,M,179,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Broward,2024-02-26,MSE24018,M,133,North New River Canal,Plantation,Human Related: Other
+Brevard,2024-02-27,MEC24020,M,117,Berkeley Canal,Satellite Beach,Perinatal (<= 150 cm)
+Brevard,2024-02-28,MEC24021,M,87,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-02-28,MEC24022,M,63,Eau Gallie River,Melbourne,Perinatal (<= 150 cm)
+Putnam,2024-02-28,MNE24006,F,115,Welaka Springs,Welaka,Perinatal (<= 150 cm)
+Pasco,2024-02-28,MNW24041,M,228,Cow Creek,Hudson,Human Related: Watercraft Collision
+Miami-Dade,2024-02-28,MSE24019,F,318,Biscayne Bay,Coral Gables,Human Related: Watercraft Collision
+Glades,2024-02-28,MSW24034,F,280,Caloosahatchee River,Labelle,Verified; Not Necropsied
+Citrus,2024-02-28,SWFTm2414,M,201,Homosassa River,Homosassa,Human Related: Watercraft Collision
+Volusia,2024-02-29,MEC24023,F,295,Indian River North,Oak Hill,Human Related: Watercraft Collision
+Hillsborough,2024-02-29,MNW24043,F,258,Hillsborough Bay,Gibsonton,Verified; Not Necropsied
+Glades,2024-02-29,MSW24035,M,253,Fish Eating Creek,Moore Haven,Natural: Cold Stress
+Brevard,2024-03-01,MEC24024,M,101,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Lee,2024-03-02,MSW24036,F,115,Caloosahatchee River,Alva,Perinatal (<= 150 cm)
+Indian River,2024-03-03,MEC24025,M,77,Indian River,Vero Beach,Perinatal (<= 150 cm)
+Citrus,2024-03-03,MNW24042,M,237,Homosassa River,Homosassa,Undetermined: Other
+Martin,2024-03-04,MSE24020,F,173,Jupiter Sound,Jupiter,Natural: Other
+Monroe,2024-03-04,MSE24021,M,200,Florida Bay,Islamorada,Verified; Not Necropsied
+Lee,2024-03-04,MSW24038,U,110,Caloosahatchee River,Ft. Myers,Perinatal (<= 150 cm)
+Citrus,2024-03-07,MNW24044,M,234,Homosassa River,Homosassa,Natural: Other
+Indian River,2024-03-09,MEC24026,F,87,Indian River,Sebastian,Perinatal (<= 150 cm)
+Brevard,2024-03-09,MEC24027,M,109,Banana River,Cocoa Beach,Perinatal (<= 150 cm)
+Brevard,2024-03-10,MEC24028,M,115,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Volusia,2024-03-10,MNE24007,U,220,Lake George,Pierson,Verified; Not Necropsied
+Martin,2024-03-10,MSE24022,F,115,St. Lucie River,Stuart,Perinatal (<= 150 cm)
+Volusia,2024-03-11,MEC24029,M,310,Mosquito Lagoon,New Smyrna Beach,Human Related: Watercraft Collision
+Lake,2024-03-11,MEC24030,M,200,St. Johns River,Astor,Human Related: Watercraft Collision
+Okeechobee,2024-03-11,MSE24023,F,120,Eagle Bay,Okeechobee,Perinatal (<= 150 cm)
+Indian River,2024-03-12,MEC24031,M,300,Indian River,Vero Beach,Undetermined: Other
+Seminole,2024-03-12,MEC24032,F,322,Woodruff Creek,Sanford,Human Related: Watercraft Collision
+Martin,2024-03-13,MSE24024,F,269,Indian River,Stuart,Natural: Other
+Lee,2024-03-13,MSW24039,F,193,Matlacha Pass,St. James City,Natural: Other
+Citrus,2024-03-14,MNW24045,M,300,Salt River,Crystal River,Verified; Not Necropsied
+Charlotte,2024-03-15,MSW24040,U,225,Alligator Creek,Punta Gorda,Verified; Not Necropsied
+Monroe,2024-03-15,SWFTm2419,F,219,Sunset Cove,Key Largo,Human Related: Watercraft Collision
+Lee,2024-03-16,MSW24041,M,225,Ten Mile Canal,Ft. Myers,Verified; Not Necropsied
+Volusia,2024-03-17,MNE24008,F,122,Spruce Creek,Port Orange,Perinatal (<= 150 cm)
+Lee,2024-03-19,MSW24042,F,249,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Citrus,2024-03-20,MNW24046,F,230,Tin Pan Gap,Crystal River,Verified; Not Necropsied
+Hernando,2024-03-21,MNW24047,M,263,Mud River,Spring Hill,Natural: Other
+Hillsborough,2024-03-21,MNW24048,F,300,Alafia River,Riverview,Verified; Not Necropsied
+Hillsborough,2024-03-24,MNW24049,F,125,Hillsborough River,Tampa,Perinatal (<= 150 cm)
+Sarasota,2024-03-24,MSW24043,F,120,Rock Creek,North Port,Perinatal (<= 150 cm)
+Lee,2024-03-24,MSW24044,M,275,Pine Island Sound,St. James City,Verified; Not Necropsied
+Brevard,2024-03-25,MEC24033,M,131,Indian River,Melbourne,Perinatal (<= 150 cm)
+Lee,2024-03-25,MSW24045,M,270,Placida Harbor,Placida,Human Related: Watercraft Collision
+Hillsborough,2024-03-26,MNW24050,F,286,Tampa Bay,Apollo Beach,Human Related: Watercraft Collision
+Franklin,2024-03-26,MNW24051,M,230,St. George Sound,St. George Island,Verified; Not Necropsied
+Lee,2024-03-26,MSW24046,M,138,Caloosahatchee River,Cape Coral,Perinatal (<= 150 cm)
+Lee,2024-03-26,MSW24047,M,261,Iona Cove,Ft. Myers,Verified; Not Necropsied
+Brevard,2024-03-27,MEC24034,M,100,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-03-27,MEC24035,F,125,Indian River,Mims,Perinatal (<= 150 cm)
+Broward,2024-03-27,MSE24025,M,119,North Fork New River,Ft. Lauderdale,Perinatal (<= 150 cm)
+Sarasota,2024-03-27,MSW24048,M,115,Rock Creek,Englewood,Perinatal (<= 150 cm)
+Volusia,2024-03-28,MEC24036,M,250,Mosquito Lagoon,Oak Hill,Human Related: Watercraft Collision
+Hillsborough,2024-03-28,MNW24052,U,150,Rocky Creek,Tampa,Perinatal (<= 150 cm)
+Marion,2024-03-29,MNE24009,F,372,Ocklawaha River,Ft. McCoy,Undetermined: Too Decomposed
+Volusia,2024-03-30,MEC24037,M,134,Indian River North,Edgewater,Perinatal (<= 150 cm)
+Broward,2024-03-30,MSE24026,M,140,Middle River,Wilton Manors,Perinatal (<= 150 cm)
+Lee,2024-03-30,MSW24050,F,130,San Carlos Bay,Sanibel,Perinatal (<= 150 cm)
+Pinellas,2024-03-31,MNW24053,F,123,Boca Ciega Bay,Gulfport,Perinatal (<= 150 cm)
+Lee,2024-04-01,MSW24051,M,118,Caloosahatchee River,Cape Coral,Perinatal (<= 150 cm)
+Lee,2024-04-01,MSW24052,U,250,Hancock Creek,North Ft. Myers,Verified; Not Necropsied
+Citrus,2024-04-02,MNW24054,M,313,Crystal River,Crystal River,Natural: Other
+Brevard,2024-04-03,MEC24038,F,143,Banana River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-04-03,MEC24039,F,291,Banana River,Merritt Island,Natural: Other
+Brevard,2024-04-05,MEC24040,M,112,Banana River,Cocoa Beach,Perinatal (<= 150 cm)
+Volusia,2024-04-05,MNE24010,M,300,St. Johns River,Pierson,Undetermined: Too Decomposed
+Escambia,2024-04-05,MNW24055,U,200,Perdido Bay,Pensacola,Verified; Not Necropsied
+Franklin,2024-04-06,MNW24056,F,325,Little Saint Marks River,Apalachicola,Verified; Not Necropsied
+Lee,2024-04-06,MSW24053,M,211,Orange River,Ft. Myers,Verified; Not Necropsied
+Lee,2024-04-06,MSW24054,M,100,Hurricane Bay,Ft. Myers Beach,Perinatal (<= 150 cm)
+Brevard,2024-04-10,MEC24041,M,303,Eau Gallie River,Melbourne,Undetermined: Other
+Lee,2024-04-10,MSW24055,F,340,Hancock Creek,North Ft. Myers,Human Related: Watercraft Collision
+Brevard,2024-04-11,MEC24042,M,129,Turkey Creek,Palm Bay,Perinatal (<= 150 cm)
+Volusia,2024-04-11,MNE24011,M,105,Strickland Creek,Ormond Beach,Perinatal (<= 150 cm)
+Hillsborough,2024-04-11,MNW24057,M,100,Channel A,Tampa,Perinatal (<= 150 cm)
+Volusia,2024-04-12,MEC24043,M,288,Indian River North,Edgewater,Human Related: Watercraft Collision
+Sarasota,2024-04-12,MSW240560,F,305,Myakka River,Venice,Verified; Not Necropsied
+Citrus,2024-04-13,MNW24058,U,215,Gulf of Mexico,Crystal River,Verified; Not Necropsied
+Martin,2024-04-14,MSE24027,M,187,Indian River,Swealls Point,Human Related: Watercraft Collision
+Volusia,2024-04-15,MNE24012,F,121,Halifax River,Daytona Beach,Perinatal (<= 150 cm)
+Manatee,2024-04-15,MNW24059,F,205,Palma Sola Bay,Bradenton,Verified; Not Necropsied
+Hillsborough,2024-04-15,MNW24060,M,251,Alafia River,Riverview,Human Related: Watercraft Collision
+Miami-Dade,2024-04-15,MSE24028,U,300,Miami River,Miami,Verified; Not Necropsied
+Lee,2024-04-15,MSW24057,U,200,Gasparilla Sound,Cape Haze,Verified; Not Necropsied
+Brevard,2024-04-16,MEC24044,F,126,Banana River,Cocoa Beach,Perinatal (<= 150 cm)
+Volusia,2024-04-16,MNE24013,F,100,Strickland Creek,Ormond Beach,Perinatal (<= 150 cm)
+Hillsborough,2024-04-16,MNW24061,M,125,Alafia River,Riverview,Perinatal (<= 150 cm)
+Franklin,2024-04-16,MNW24062,M,150,Scipio Creek,Apalachicola,Perinatal (<= 150 cm)
+Brevard,2024-04-17,MEC24045,F,125,Indian River,Melbourne,Perinatal (<= 150 cm)
+Volusia,2024-04-17,MNE24014,F,260,St. Johns River,Pierson,Verified; Not Necropsied
+Citrus,2024-04-17,MNW24063,M,237,Homosassa River,Homosassa,Human Related: Watercraft Collision
+Volusia,2024-04-18,MEC24046,U,280,Indian River North,Oak Hill,Verified; Not Necropsied
+Brevard,2024-04-18,MEC24047,U,320,Banana River,Cocoa Beach,Human Related: Other
+Okeechobee,2024-04-18,MSE24029,M,135,Taylor Creek,Okeechobee,Perinatal (<= 150 cm)
+Broward,2024-04-19,MSE24030,F,215,C-9 canal,Pembroke Pines,Human Related: Other
+Volusia,2024-04-20,MNE24015,F,281,Spring Garden Creek,DeLeon Springs,Human Related: Watercraft Collision
+Brevard,2024-04-21,MEC24048,M,113,Turkey Creek,Palm Bay,Perinatal (<= 150 cm)
+Monroe,2024-04-21,MSE24031,F,275,Blackwater Sound,Key Largo,Verified; Not Necropsied
+Volusia,2024-04-22,MNE24016,M,133,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Brevard,2024-04-23,MEC24049,F,318,Turkey Creek,Palm Bay,Human Related: Watercraft Collision
+Putnam,2024-04-23,MNE24017,F,120,St. Johns River,Palatka,Perinatal (<= 150 cm)
+Martin,2024-04-23,MSE24032,F,208,Indian River,Stuart,Undetermined: Too Decomposed
+Sarasota,2024-04-23,MSW24058,F,145,Grand Canal,Siesta Key,Perinatal (<= 150 cm)
+Duval,2024-04-24,MNE24018,F,355,St. Johns River,Jacksonville,Human Related: Watercraft Collision
+Brevard,2024-04-25,MEC24050,U,320,Banana Creek,Titusville,Verified; Not Necropsied
+Brevard,2024-04-25,MEC24051,F,320,Banana River,Merritt Island,Verified; Not Necropsied
+Volusia,2024-04-26,MEC24052,M,130,Indian River North,Oak Hill,Perinatal (<= 150 cm)
+Volusia,2024-04-26,MNE24019,F,125,Little Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Pinellas,2024-04-26,MNW24064,F,221,Tampa Bay,Tierra Verde,Human Related: Watercraft Collision
+Lake,2024-04-27,MEC24053,F,120,St. Johns River,Astor,Perinatal (<= 150 cm)
+Volusia,2024-04-28,MEC24054,F,289,Indian River,North Oak Hill,Human Related: Watercraft Collision
+Manatee,2024-04-28,MNW24066,F,335,Tillette Bayou,Terra Ceia,Verified; Not Necropsied
+Lee,2024-04-28,MSW24049,F,290,Shell Creek,Ft. Myers,Undetermined: Other
+Brevard,2024-04-29,MEC24055,F,355,Eau Gallie River,Melbourne,Undetermined: Too Decomposed
+Taylor,2024-04-29,MNW24065,M,125,Steinhatchee River,Perry,Verified; Not Necropsied
+Collier,2024-04-29,MSW24059,M,295,Gordon River,Naples,Human Related: Watercraft Collision
+Sarasota,2024-04-29,MSW24060,F,182,Lyons Bay,Nokomis,Verified; Not Necropsied
+Brevard,2024-04-30,MEC24056,M,103,Banana River,Satellite Beach,Perinatal (<= 150 cm)
+Volusia,2024-04-30,MNE24020,M,136,Little Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Pinellas,2024-04-30,MNW24067,F,180,Long Bayou,St. Petersburg,Verified; Not Necropsied
+Lee,2024-04-30,MSW24061,U,250,Matlacha Pass,Matlacha,Verified; Not Necropsied
+Hillsborough,2024-05-01,MNW24068,U,120,Rocky Creek,Tampa,Perinatal (<= 150 cm)
+Lee,2024-05-01,MSW24062,F,245,San Carlos Bay,Sanibel,Verified; Not Necropsied
+Brevard,2024-05-02,MEC24057,M,148,Grand Canal,Satellite Beach,Perinatal (<= 150 cm)
+Charlotte,2024-05-02,MSW24063,F,185,Peace River,Port Charlotte,Verified; Not Necropsied
+Volusia,2024-05-03,MNE24021,F,135,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Brevard,2024-05-04,MEC24058,M,132,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Charlotte,2024-05-04,MSW24064,F,275,Placida Harbor,Placida,Verified; Not Necropsied
+St. Johns,2024-05-05,MNE24022,M,284,Matanzas River,St. Augustine,Human Related: Watercraft Collision
+Pinellas,2024-05-05,MNW24069,U,120,Largo Inlet,Clearwater,Perinatal (<= 150 cm)
+Okeechobee,2024-05-05,MSE24033,M,309,Government Cut,Okeechobee,Natural: Other
+Brevard,2024-05-07,MEC24059,F,135,Indian River,Titusville,Perinatal (<= 150 cm)
+Martin,2024-05-08,MSE24034,M,305,St. Lucie River,Stuart,Human Related: Flood Gate/Canal Lock
+Lee,2024-05-08,SWFTm2428,F,208,Estero Bay,Ft. Myers Beach,Human Related: Watercraft Collision
+Brevard,2024-05-09,MEC24060,M,340,Port Canaveral,Cape Canaveral,Human Related: Flood Gate/Canal Lock
+Lake,2024-05-09,MEC24061,U,250,St. Johns River,Astor,Verified; Not Necropsied
+Volusia,2024-05-11,MEC24063,F,334,Mosquito Lagoon,New Smyrna Beach,Verified; Not Necropsied
+Volusia,2024-05-11,MNE24023,M,134,Strickland Creek,Ormond Beach,Perinatal (<= 150 cm)
+Dixie,2024-05-11,MNW24070,F,130,Suwannee River,Suwannee,Perinatal (<= 150 cm)
+Lee,2024-05-11,MSW24065,M,140,Hurricane Bay,Ft. Myers Beach,Perinatal (<= 150 cm)
+Volusia,2024-05-12,MEC24062,F,282,Mosquito Lagoon,Oak Hill,Human Related: Watercraft Collision
+Lake,2024-05-12,MEC24064,M,195,St. Johns River,Deland,Verified; Not Necropsied
+Citrus,2024-05-12,MNW24071,F,214,Homosassa River,Homosassa,Human Related: Watercraft Collision
+Miami-Dade,2024-05-12,MSE24035,F,282,Biscayne Bay,Pinecrest,Human Related: Other
+Miami-Dade,2024-05-12,MSE24036,M,240,Little River,Miami,Human Related: Flood Gate/Canal Lock
+Volusia,2024-05-13,MNE24024,M,131,Strickland Creek,Ormond Beach,Perinatal (<= 150 cm)
+Monroe,2024-05-13,MSE24037,M,308,Cotten Key Basin,Islamorada,Human Related: Watercraft Collision
+Citrus,2024-05-14,MNW24072,F,130,Homosassa River,Homosassa,Perinatal (<= 150 cm)
+Miami-Dade,2024-05-15,MSE24038,U,120,South Fork Miami River,Miami,Perinatal (<= 150 cm)
+Brevard,2024-05-16,MEC24065,F,105,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Pinellas,2024-05-16,MNW24073,M,304,Frenchmans Creek,St. Petersburg,Natural: Other
+Pinellas,2024-05-16,MNW24074,F,331,MaKay Creek,Largo,Human Related: Other
+Monroe,2024-05-16,MSE24039,F,338,Vaca Key Bight,Marathon,Verified; Not Necropsied
+Glades,2024-05-16,MSW24066,M,305,Calooshatchee River,Moore Haven,Verified; Not Necropsied
+Lake,2024-05-17,MEC24066,M,306,Haines Creek,Leesburg,Human Related: Flood Gate/Canal Lock
+Volusia,2024-05-17,MNE24025,M,315,Halifax River,Daytona Beach,Undetermined: Too Decomposed
+Manatee,2024-05-17,MNW24075,M,320,Sarastoa Bay,Bradenton,Verified; Not Necropsied
+St. Johns,2024-05-18,MNE24027,M,335,St. Johns River,St. Augustine,Human Related: Watercraft Collision
+Pinellas,2024-05-18,MNW24076,M,255,Tampa Bay,St. Petersburg,Verified; Not Necropsied
+Pinellas,2024-05-18,MNW24077,F,185,St. Joseph Sound,Dunedin,Verified; Not Necropsied
+Collier,2024-05-18,MSW24067,M,248,Vanderbilt Channel,Naples,Verified; Not Necropsied
+Volusia,2024-05-19,MNE24028,M,136,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Pinellas,2024-05-20,MNW24078,M,335,Long Bayou,Seminole,Undetermined: Too Decomposed
+Brevard,2024-05-21,MEC24067,M,246,Indian River,Melbourne Beach,Natural: Other
+Flagler,2024-05-21,MNE24029,M,293,Matanzas River,Palm Coast,Human Related: Watercraft Collision
+Volusia,2024-05-21,MNE24030,M,120,Rose Bay,Port Orange,Perinatal (<= 150 cm)
+Volusia,2024-05-21,MNE24032,U,250,Lake Dexter,Pierson,Verified; Not Necropsied
+Flagler,2024-05-22,MNE24031,F,124,Matanzas River,Flagler Beach,Perinatal (<= 150 cm)
+Hillsborough,2024-05-22,MNW24079,F,264,Alafia River,Riverview,Human Related: Watercraft Collision
+Palm Beach,2024-05-22,MSE24040,F,248,Lake Worth Lagoon,West Palm Beach,Undetermined: Too Decomposed
+Miami-Dade,2024-05-22,MSE24041,U,125,Biscayne Bay,Miami Beach,Perinatal (<= 150 cm)
+Brevard,2024-05-23,MEC24068,F,330,Banana River,Merritt Island,Undetermined: Too Decomposed
+Brevard,2024-05-23,MEC24069,M,115,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Volusia,2024-05-24,MNE24033,M,143,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Monroe,2024-05-24,MSE24042,M,120,Long Key Bight,Marathon,Perinatal (<= 150 cm)
+Collier,2024-05-24,MSW24068,F,243,Roberts Bay,Marco Island,Verified; Not Necropsied
+Volusia,2024-05-25,MEC24070,F,250,Indian River North,Oak Hill,Human Related: Watercraft Collision
+Volusia,2024-05-25,MNE24034,M,125,Strickland Creek,Ormond Beach,Perinatal (<= 150 cm)
+Sarasota,2024-05-25,MSW24069,F,113,Phillippi Creek,Sarasota,Perinatal (<= 150 cm)
+Brevard,2024-05-26,MEC24071,F,138,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Volusia,2024-05-26,MNE24035,F,125,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Wakulla,2024-05-26,MNW24080,F,215,Wakulla River,St. Marks,Verified; Not Necropsied
+Monroe,2024-05-26,MSE24043,F,300,Community Harbor,Tavernier,Verified; Not Necropsied
+Volusia,2024-05-27,MNE24036,F,122,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+St. Johns,2024-05-27,MNE24037,M,106,Tolomato River,Ponte Vedra,Perinatal (<= 150 cm)
+Pinellas,2024-05-27,MNW24081,M,116,77th Avenue Canal,St. Petersburg,Perinatal (<= 150 cm)
+Glades,2024-05-28,MSW24070,F,310,Indian Prairie Canal,Cabbage Island,Undetermined: Too Decomposed
+Lee,2024-05-28,MSW24071,F,150,Caloosahatchee River,North Ft. Myers,Perinatal (<= 150 cm)
+Volusia,2024-05-30,MEC24072,F,288,Indian River North,Oak Hill,Human Related: Watercraft Collision
+Brevard,2024-05-30,MEC24073,M,118,Indian River,Allenhurst,Perinatal (<= 150 cm)
+Charlotte,2024-05-30,MSW24072,M,289,Little Alligator Creek,Port Charlotte,Natural: Other
+Hillsborough,2024-05-31,MNW24082,F,130,Old Tampa Bay,Tampa,Perinatal (<= 150 cm)
+Lee,2024-05-31,MSW24073,F,210,Jewfish Creek,Cape Coral,Verified; Not Necropsied
+Manatee,2024-06-01,MNW24083,F,241,Warner West Bayou,Bradenton,Verified; Not Necropsied
+Glades,2024-06-01,MSW24074,M,323,Caloosahatchee River,Moore Haven,Human Related: Flood Gate/Canal Lock
+Monroe,2024-06-01,SWFTm2437,M,280,South Creek,Key Largo,Human Related: Watercraft Collision
+Lee,2024-06-02,MSW24075,F,290,Caloosahatchee River,Cape Coral,Verified; Not Necropsied
+Wakulla,2024-06-03,MNW24084,M,135,Apalachee Bay,Crawfordville,Perinatal (<= 150 cm)
+Glades,2024-06-03,MSW24076,U,275,Rim Canal,Clewiston,Verified; Not Necropsied
+Lee,2024-06-03,MSW24077,F,273,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Pinellas,2024-06-04,MNW24085,F,335,Safety Harbor,Oldsmar,Verified; Not Necropsied
+Gulf,2024-06-04,MNW24086,M,320,Saint Joseph Bay,Port St. Joe,Human Related: Watercraft Collision
+Lee,2024-06-04,MSW24078,M,139,Caloosahatchee River,Cape Coral,Perinatal (<= 150 cm)
+Brevard,2024-06-05,MEC24074,U,310,Indian River,Malabar,Undetermined: Too Decomposed
+Lee,2024-06-06,MSW24079,M,233,Ten Mile Canal,Ft. Myers,Verified; Not Necropsied
+Lee,2024-06-06,MSW24080,M,224,Pine Island Sound,St. James City,Verified; Not Necropsied
+Citrus,2024-06-07,MNW24087,F,150,Kings Bay,Crystal River,Perinatal (<= 150 cm)
+St. Lucie,2024-06-07,MSE24044,M,251,St. Lucie River,Port St Lucie,Undetermined: Too Decomposed
+Sarasota,2024-06-07,MSW24081,F,295,Big Slough,North Port,Verified; Not Necropsied
+Brevard,2024-06-08,MEC24075,M,100,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-06-08,MEC24076,M,105,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-06-08,MEC24077,F,93,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+St. Lucie,2024-06-08,MSE24045,F,281,Ft. Pierce Inlet,Ft. Pierce,Human Related: Watercraft Collision
+Brevard,2024-06-09,MEC24078,M,130,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+St. Johns,2024-06-09,MNE24038,M,120,Matanzas River,St. Augustine,Perinatal (<= 150 cm)
+Volusia,2024-06-10,MNE24039,M,140,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Indian River,2024-06-11,MEC24079,F,141,Indian River,Sebastian,Perinatal (<= 150 cm)
+Nassau,2024-06-12,MNE24040,M,135,Walker Creek,Fernandina Beach,Perinatal (<= 150 cm)
+Miami-Dade,2024-06-13,MSE24046,U,240,C-8 canal,Miami,Human Related: Other
+Manatee,2024-06-14,MNW24088,M,322,Sarasota Bay,Cortez,Human Related: Watercraft Collision
+Brevard,2024-06-16,MEC24080,M,300,Indian River,Grant-Valkaria,Human Related: Watercraft Collision
+Duval,2024-06-16,MNE24041,U,285,St. Johns River,Jacksonville,Verified; Not Necropsied
+Volusia,2024-06-17,JZGTm2309,M,182,Lake Woodruff,De Leon Springs,Human Related: Watercraft Collision
+Collier,2024-06-17,MSW24082,M,145,Wiggins Pass,Naples,Perinatal (<= 150 cm)
+Monroe,2024-06-19,MSE24047,M,291,Atlantic Ocean,Key Largo,Human Related: Watercraft Collision
+Manatee,2024-06-20,MNW24089,M,298,Manatee River,Ellenton,Undetermined: Too Decomposed
+Martin,2024-06-20,MSE24048,F,312,St. Lucie River,Palm City,Human Related: Watercraft Collision
+Volusia,2024-06-22,MEC24081,M,110,Indian River North,Edgewater,Perinatal (<= 150 cm)
+Brevard,2024-06-22,MEC24082,M,130,Haulover Canal,Allenhurst,Perinatal (<= 150 cm)
+Wakulla,2024-06-22,MNW24090,F,210,Wakulla River,St. Marks,Verified; Not Necropsied
+Brevard,2024-06-24,MEC24083,F,106,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-06-26,MEC24084,F,118,Banana River,Merritt Island,Perinatal (<= 150 cm)
+Glades,2024-06-26,MSW24083,U,145,Caloosahatchee River,Moore Haven,Human Related: Flood Gate/Canal Lock
+Sarasota,2024-06-27,MSW24084,F,288,Roberts Bay,Siesta Key,Natural: Other
+Seminole,2024-06-28,MEC24085,F,150,Lake Monroe,Sanford,Perinatal (<= 150 cm)
+Clay,2024-06-28,MNE24042,F,157,Doctors Lake,Orange Park,Natural: Other
+Lee,2024-06-28,MSW24085,M,245,Estero Bay,Bonita Springs,Human Related: Watercraft Collision
+Lee,2024-06-28,MSW24086,U,200,Pine Island Sound,St. James City,Verified; Not Necropsied
+Pinellas,2024-06-29,MNW24091,M,218,Clearwater Harbor,Dunedin,Verified; Not Necropsied
+Brevard,2024-06-30,MEC24086,M,346,Atlantic Ocean,Cape Canaveral,Human Related: Watercraft Collision
+Lee,2024-06-30,MSW24087,F,238,Matlacha Pass,St. James City,Verified; Not Necropsied
+Volusia,2024-07-02,MEC24087,M,215,St. Johns River,Bithlo,Verified; Not Necropsied
+Monroe,2024-07-03,MSE24049,F,143,Florida Bay,Islamorada,Perinatal (<= 150 cm)
+Brevard,2024-07-04,MEC24088,U,120,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Volusia,2024-07-04,MEC24089,M,273,Indian River North,Oak Hill,Human Related: Watercraft Collision
+Pinellas,2024-07-04,MNW24092,F,354,St. Joseph Sound,Clearwater Harbor,Verified; Not Necropsied
+Brevard,2024-07-05,MEC24090,M,123,Indian River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-07-05,MEC24093,U,300,Indian River,Allenhurst,Verified; Not Necropsied
+Citrus,2024-07-05,MNW24093,M,242,Halls River,Homosassa,Undetermined: Too Decomposed
+Volusia,2024-07-06,MNE24043,M,125,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Bay,2024-07-06,MNW24094,M,310,Grand Lagoon,Panama City,Verified; Not Necropsied
+Martin,2024-07-06,MSE24050,M,289,St. Lucie River,Stuart,Human Related: Flood Gate/Canal Lock
+Lee,2024-07-06,MSW24089,F,344,Blind Pass,Captiva,Verified; Not Necropsied
+Brevard,2024-07-07,MEC24091,F,309,Indian River,Malabar,Human Related: Watercraft Collision
+Brevard,2024-07-07,MEC24092,F,111,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Volusia,2024-07-07,MNE24044,F,120,Halifax River,Daytona Beach,Perinatal (<= 150 cm)
+Hillsborough,2024-07-07,MNW24095,M,255,Old Tampa Bay,Tampa,Verified; Not Necropsied
+Manatee,2024-07-07,MNW24096,M,120,Braden River,Bradenton,Perinatal (<= 150 cm)
+Citrus,2024-07-07,MNW24097,U,275,Price Creek,Homosassa,Verified; Not Necropsied
+Collier,2024-07-07,MSW24090,F,260,Lake Placid,Everglades City,Verified; Not Necropsied
+Citrus,2024-07-09,MNW24098,F,300,Miller Creek,Crystal River,Natural: Other
+Glades,2024-07-12,MSW24091,M,290,Caloosahatchee River,Moore Haven,Human Related: Flood Gate/Canal Lock
+Putnam,2024-07-13,MNE24045,F,220,Crescent Lake,San Mateo,Verified; Not Necropsied
+Pasco,2024-07-14,MNW24099,M,222,Pithlachascotee River,Port Richey,Human Related: Watercraft Collision
+Lee,2024-07-15,MSW24092,M,128,Caloosahatchee River,Ft. Myers,Perinatal (<= 150 cm)
+Brevard,2024-07-17,MEC24094,M,236,Indian River,Malabar,Human Related: Watercraft Collision
+Brevard,2024-07-17,MEC24095,F,122,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Lee,2024-07-18,MSW24093,F,289,Caloosahatchee River,Cape Coral,Natural: Other
+Volusia,2024-07-20,MEC24096,F,245,Mosquito Lagoon,Oak Hill,Verified; Not Necropsied
+Indian River,2024-07-20,MEC24097,F,287,Indian River,Vero Beach,Human Related: Watercraft Collision
+Citrus,2024-07-20,MNW24100,F,280,Double Barrel Creek,Crystal River,Undetermined: Too Decomposed
+Lake,2024-07-21,MEC24098,M,285,Haines Creek,Leesburg,Undetermined: Too Decomposed
+Pinellas,2024-07-21,MNW24101,F,121,Riviera Bay,St. Petersburg,Perinatal (<= 150 cm)
+Brevard,2024-07-22,MEC24099,U,320,Banana River,Merritt Island,Verified; Not Necropsied
+Miami-Dade,2024-07-22,MSE24051,U,279,Biscayne Bay,Miami,Undetermined: Too Decomposed
+Pinellas,2024-07-23,MNW24102,F,269,Bear Creek,St. Petersburg,Human Related: Watercraft Collision
+Monroe,2024-07-24,MSE24052,M,297,Blackwater Sound,Key Largo,Natural: Other
+Charlotte,2024-07-24,MSW24094,M,287,Rock Creek,Englewood,Verified; Not Necropsied
+Brevard,2024-07-25,MEC24100,M,275,KSC Turning Basin,Merritt Island,Verified; Not Necropsied
+Brevard,2024-07-26,MEC24101,M,142,Turkey Creek,Palm Bay,Perinatal (<= 150 cm)
+Taylor,2024-07-27,MNW24103,M,345,Gulf of Mexico,Perry,Human Related: Watercraft Collision
+Putnam,2024-07-28,MNE24046,M,150,St. Johns River,Satsuma,Perinatal (<= 150 cm)
+Brevard,2024-07-30,MEC24102,F,129,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Lee,2024-07-30,MSW24095,M,322,Imperial River,Bonita Springs,Verified; Not Necropsied
+Citrus,2024-07-31,MNW24104,F,213,Kings Bay,Crystal River,Human Related: Watercraft Collision
+Lee,2024-07-31,MSW24096,F,300,Matlacha Pass,Merwin Key,Verified; Not Necropsied
+Sarasota,2024-07-31,MSW24097,M,219,Lemon Bay,Englewood,Human Related: Watercraft Collision
+Monroe,2024-08-01,MSE24053,F,308,Florida Bay,Marathon,Natural: Other
+Martin,2024-08-02,MSE24054,M,129,Manatee Pocket,Stuart,Perinatal (<= 150 cm)
+Pinellas,2024-08-03,MNW24105,F,369,Boca Ciega Bay,South Pasadena,Human Related: Watercraft Collision
+Volusia,2024-08-04,MNE24047,F,316,Indian River North,New Smyrna Beach,Verified; Not Necropsied
+Manatee,2024-08-05,MNW24106,M,325,Sarasota Bay,Sarasota,Human Related: Watercraft Collision
+Pinellas,2024-08-05,MNW24107,F,303,St. Joseph Sound,Belleair Beach,Human Related: Watercraft Collision
+Manatee,2024-08-06,SWFTm2440,F,290,Manatee River,Palmetto,Natural: Other
+Volusia,2024-08-09,MNE24048,M,329,Strickland Creek,Ormond Beach,Natural: Other
+Miami-Dade,2024-08-09,MSE24055,F,345,Coral Gables Waterway,Coral Gables,Undetermined: Too Decomposed
+Lee,2024-08-10,MSW24098,M,238,Matlacha Pass,St. James City,Human Related: Watercraft Collision
+Charlotte,2024-08-10,MSW24099,M,255,Alligator Creek,Punta Gorda,Verified; Not Necropsied
+Brevard,2024-08-13,MEC24103,M,128,Indian River,Melbourne Beach,Perinatal (<= 150 cm)
+Lee,2024-08-13,MSW24100,F,293,San Carlos Bay,St. James City,Undetermined: Too Decomposed
+Brevard,2024-08-14,MEC24104,F,120,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-08-15,MEC24105,F,290,Turkey Creek,Palm Bay,Undetermined: Other
+Brevard,2024-08-15,MEC24106,F,294,Indian River,Cocoa,Verified; Not Necropsied
+Martin,2024-08-15,MSE24056,M,275,St. Lucie River,Stuart,Human Related: Flood Gate/Canal Lock
+Indian River,2024-08-16,MEC24107,F,305,Indian River,Sebastian,Verified; Not Necropsied
+Lee,2024-08-16,MSW24101,F,302,Pelican Pass,Cayo Costa,Verified; Not Necropsied
+Hernando,2024-08-17,MNW24108,M,319,Gulf of Mexico,Hernando Beach,Human Related: Watercraft Collision
+Brevard,2024-08-18,MEC24108,M,340,Banana River,Merritt Island,Undetermined: Too Decomposed
+Lee,2024-08-18,MSW24102,U,150,San Carlos Bay,Ft. Myers,Perinatal (<= 150 cm)
+Palm Beach,2024-08-19,MSE24057,M,121,Indian River,Jupiter,Human Related: Watercraft Collision
+Brevard,2024-08-20,MEC24109,F,307,Indian River,Mims,Human Related: Watercraft Collision
+Volusia,2024-08-23,MEC24110,F,300,Indian River North,Edgewater,Verified; Not Necropsied
+Brevard,2024-08-24,MEC24111,M,97,Grand Canal,Satellite Beach,Perinatal (<= 150 cm)
+Seminole,2024-08-25,MEC24113,U,215,Econlockhatchee River,Geneva,Verified; Not Necropsied
+Lee,2024-08-25,MSW24103,F,311,Hurricane Bay,Ft. Myers Beach,Verified; Not Necropsied
+Brevard,2024-08-27,MEC24112,M,309,Banana River,Merritt Island,Undetermined: Too Decomposed
+Brevard,2024-08-30,MEC24114,M,150,Banana River,Merritt Island,Perinatal (<= 150 cm)
+St. Lucie,2024-09-03,MSE24058,M,275,Indian River,Ft. Pierce,Verified; Not Necropsied
+Lee,2024-09-03,MSW24104,M,149,Caloosahatchee River,Cape Coral,Perinatal (<= 150 cm)
+Brevard,2024-09-04,SWFTm2443,M,289,Indian River,Titusville,Human Related: Watercraft Collision
+Volusia,2024-09-05,MEC24115,F,345,Indian River North,Oak Hill,Human Related: Watercraft Collision
+Brevard,2024-09-08,MEC24116,U,166,Indian River,Titusville,Undetermined: Too Decomposed
+Volusia,2024-09-08,MNE24026,F,348,St. Johns River,Astor,Undetermined: Too Decomposed
+Lee,2024-09-08,MSW24105,F,343,San Carlos Bay,St. James City,Human Related: Watercraft Collision
+Volusia,2024-09-09,MEC24117,U,210,Indian River North,Oak Hill,Verified; Not Necropsied
+Manatee,2024-09-09,MNW24109,M,150,Palma Sola Bay,Bradenton,Perinatal (<= 150 cm)
+Charlotte,2024-09-09,MSW24106,U,245,Lemon Bay,Englewood,Verified; Not Necropsied
+Lee,2024-09-09,MSW24107,U,295,San Carlos Bay,Ft. Myers,Verified; Not Necropsied
+Brevard,2024-09-13,MEC24118,F,320,Banana River,Cape Canaveral,Natural: Other
+Lee,2024-09-15,MSW24108,F,237,Matlacha Pass,Matlacha,Verified; Not Necropsied
+Miami-Dade,2024-09-16,MSE24059,M,145,C-9 Canal,Miami Gardens,Perinatal (<= 150 cm)
+Brevard,2024-09-18,MEC24119,U,120,Banana River,Cocoa Beach,Perinatal (<= 150 cm)
+Marion,2024-09-18,MNE24049,M,130,Salt Run,Salt Springs,Perinatal (<= 150 cm)
+Brevard,2024-09-19,MEC24121,M,299,Port Canaveral,Cape Canaveral,Human Related: Flood Gate/Canal Lock
+Brevard,2024-09-19,MEC24122,M,289,Port Canaveral,Cape Canaveral,Human Related: Flood Gate/Canal Lock
+Brevard,2024-09-19,MEC24123,M,311,Port Canaveral,Cape Canaveral,Human Related: Flood Gate/Canal Lock
+Pinellas,2024-09-20,LPZ103707,F,259,Mullet Key Bayou,St. Petersburg,Human Related: Watercraft Collision
+Volusia,2024-09-20,MEC24120,F,330,Mosquito Lagoon,Oak Hill,Verified; Not Necropsied
+Sarasota,2024-09-20,MSW24109,F,278,Lemon Bay,Manasota Key,Human Related: Watercraft Collision
+Sarasota,2024-09-20,MSW24110,F,251,Lemon Bay,Englewood,Human Related: Watercraft Collision
+Brevard,2024-09-21,MEC24124,M,130,Horse Creek,Melbourne,Perinatal (<= 150 cm)
+Lee,2024-09-21,MSW24111,M,299,Pine Island Sound,Park Island,Human Related: Watercraft Collision
+Brevard,2024-09-22,MEC24125,F,340,Port Canaveral,Cape Canaveral,Human Related: Flood Gate/Canal Lock
+Lake,2024-09-22,MEC24126,M,250,Lake Griffin,Lady Lake,Verified; Not Necropsied
+Brevard,2024-09-23,MEC24127,U,115,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Hernando,2024-09-25,MNW24110,M,250,Mud River,Spring Hill,Human Related: Watercraft Collision
+Charlotte,2024-10-01,LPZ102374,M,303,Charlotte Harbor,Punta Gorda,Human Related: Watercraft Collision
+Brevard,2024-10-01,MEC24128,M,136,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Duval,2024-10-01,MNE24050,M,272,Julington Creek,Jacksonville,Human Related: Watercraft Collision
+Lee,2024-10-01,MSW24112,F,133,Caloosahatchee River,Ft. Myers,Perinatal (<= 150 cm)
+Brevard,2024-10-10,MEC24129,F,332,Sykes Creek,Merritt Island,Verified; Not Necropsied
+Lee,2024-10-10,MSW24113,F,276,Caloosahatchee River,Ft. Myers,Human Related: Watercraft Collision
+Charlotte,2024-10-10,MSW24114,M,205,Peace River,Punta Gorda,Verified; Not Necropsied
+Volusia,2024-10-12,MNE24051,F,149,Tomoka River,Ormond Beach,Perinatal (<= 150 cm)
+Taylor,2024-10-13,MNW24111,F,310,Hickery Mound Impoundment,Perry,Verified; Not Necropsied
+Pinellas,2024-10-14,MNW24112,M,285,Boca Ciega Bay,Madeira Beach,Undetermined: Too Decomposed
+Marion,2024-10-15,MNE24052,M,280,Ocklawaha River,Ocklawaha,Human Related: Flood Gate/Canal Lock
+Martin,2024-10-17,MSE24060,M,275,St. Lucie Canal,Port Mayaca,Human Related: Flood Gate/Canal Lock
+Volusia,2024-10-18,MEC24130,M,125,Lake Monroe,Deltona,Perinatal (<= 150 cm)
+Citrus,2024-10-19,MNW24113,M,243,Kings Bay,Crystal River,Natural: Other
+Marion,2024-10-20,MNE24053,F,234,Ocklawaha River,Ocklawaha,Human Related: Flood Gate/Canal Lock
+Glades,2024-10-23,MSW24115,M,284,Caloosahatchee River,Moore Haven,Human Related: Flood Gate/Canal Lock
+Manatee,2024-10-24,MNW24114,F,215,Tampa Bay,Holmes Beach,Human Related: Watercraft Collision
+Sarasota,2024-10-26,MSW24116,F,161,Roberts Bay,Siesta Key,Undetermined: Too Decomposed
+Indian River,2024-10-28,MEC24131,F,258,Indian River,Vero Beach,Undetermined: Too Decomposed
+Martin,2024-10-28,MSE24061,F,259,Indian River,Stuart,Human Related: Watercraft Collision
+Wakulla,2024-10-29,MNW24115,F,328,Apalachee Bay,St. Marks,Human Related: Watercraft Collision
+Hillsborough,2024-10-30,MNW24116,F,269,Tampa Bay,Ruskin,Verified; Not Necropsied
+Brevard,2024-11-02,MEC24132,F,256,Banana River,Merritt Island,Verified; Not Necropsied
+Marion,2024-11-02,MNE24054,M,207,Silver River,Silver Springs,Undetermined: Too Decomposed
+Lee,2024-11-02,MSW24117,M,187,Matlacha Pass,Cape Coral,Human Related: Watercraft Collision
+Lee,2024-11-03,MSW24118,F,288,Caloosahatchee River,Ft. Myers,Verified; Not Necropsied
+Lee,2024-11-04,MSW24119,F,199,San Carlos Bay,St. James City,Human Related: Watercraft Collision
+Brevard,2024-11-06,MEC24133,F,281,Indian River,Sebastian,Verified; Not Necropsied
+Palm Beach,2024-11-08,MSE24062,F,147,Lake Worth Lagoon,West Palm Beach,Perinatal (<= 150 cm)
+Glades,2024-11-12,MSW24120,F,313,Rim Canal,Moore Haven,Verified; Not Necropsied
+Volusia,2024-11-15,MEC24134,M,143,Indian River North,Oak Hill,Perinatal (<= 150 cm)
+Brevard,2024-11-17,MEC24135,F,290,Sykes Creek,Merritt Island,Human Related: Watercraft Collision
+Volusia,2024-11-17,MEC24136,F,312,Indian River North,Edgewater,Verified; Not Necropsied
+Manatee,2024-11-17,MNW24117,F,294,Manatee River,Bradenton,Human Related: Watercraft Collision
+Martin,2024-11-17,MSE24063,M,243,Manatee Pocket,Stuart,Verified; Not Necropsied
+Lee,2024-11-17,MSW24121,F,160,Matlacha Pass,Cape Coral,Natural: Other
+Brevard,2024-11-18,MEC24137,M,329,Indian River,Cocoa,Undetermined: Too Decomposed
+Sarasota,2024-11-18,MSW24088,F,285,Roberts Bay,Siesta Key,Natural: Other
+Miami-Dade,2024-11-22,MSE24064,M,209,Coral Gables Waterway,Coral Gables,Human Related: Watercraft Collision
+Pinellas,2024-11-23,MNW24118,M,252,Allens Creek,Largo,Natural: Other
+Monroe,2024-11-23,MSE24065,M,263,Garden Cove,Key Largo,Natural: Other
+Hillsborough,2024-11-24,MNW24119,U,250,Garrison Channel,Tampa,Human Related: Watercraft Collision
+Lee,2024-11-25,MSW24122,M,200,Caloosahatchee River,Cape Coral,Natural: Other
+Indian River,2024-11-26,MEC24138,M,297,Atlantic Ocean,Sebastian,Human Related: Watercraft Collision
+Manatee,2024-11-26,MNW24120,M,240,Anna Maria Sound,Bradenton,Verified; Not Necropsied
+Manatee,2024-11-27,MNW24121,M,240,Palma Sola Bay,Bradenton,Verified; Not Necropsied
+Charlotte,2024-11-27,MSW24123,F,300,Catfish Creek,Placida,Verified; Not Necropsied
+Sarasota,2024-11-28,MSW24124,M,260,Roberts Bay,Venice,Human Related: Watercraft Collision
+Citrus,2024-11-29,MNW24122,M,200,Homosassa River,Homosassa,Verified; Not Necropsied
+Martin,2024-11-29,MSE24066,M,192,Willoughby Creek,Stuart,Natural: Other
+Brevard,2024-11-30,MEC24139,F,155,Sykes Creek,Merritt Island,Verified; Not Necropsied
+Pinellas,2024-11-30,MNW24123,M,342,Smacks Bayou,St. Petersburg,Verified; Not Necropsied
+Sarasota,2024-11-30,MSW24125,F,238,Cranes Bayou,Longboat Key,Verified; Not Necropsied
+Okaloosa,2024-12-02,MNW24124,M,266,Choctawhatchee Bay,Okaloosa Island,Natural: Cold Stress
+Lee,2024-12-02,MSW24126,M,305,Caloosahatchee River,Alva,Human Related: Watercraft Collision
+Manatee,2024-12-03,MNW24125,F,232,Tampa Bay,Anna Marina Island,Natural: Other
+Charlotte,2024-12-03,MSW24127,F,267,Placida Harbor,Placida,Human Related: Watercraft Collision
+Pinellas,2024-12-04,MNW24127,M,232,Bayou Grande,St. Petersburg,Verified; Not Necropsied
+Collier,2024-12-04,MSW24128,M,165,Faka Union Canal,Naples,Verified; Not Necropsied
+Brevard,2024-12-05,MEC24140,M,245,Horse Creek,Melbourne,Human Related: Other
+Brevard,2024-12-06,MEC24141,F,260,Berkeley Canal,Satellite Beach,Natural: Other
+Broward,2024-12-07,MSE24067,F,313,FPL Cooling Lakes,Dania Beach,Undetermined: Too Decomposed
+Brevard,2024-12-08,MEC24142,M,280,Banana River,Cocoa Beach,Human Related: Watercraft Collision
+Manatee,2024-12-09,MNW24126,M,180,Braden River,Bradenton,Verified; Not Necropsied
+Collier,2024-12-09,MSW24129,U,260,East River,Everglades City,Verified; Not Necropsied
+Brevard,2024-12-09,SWFTm2457,M,105,Grand Canal,Satellite Beach,Perinatal (<= 150 cm)
+Brevard,2024-12-10,MEC24143,U,315,Indian River,Titusville,Verified; Not Necropsied
+Brevard,2024-12-10,MEC24144,F,132,Indian River,Port St. John,Perinatal (<= 150 cm)
+Brevard,2024-12-10,MEC24145,M,134,Sykes Creek,Merritt Island,Perinatal (<= 150 cm)
+Monroe,2024-12-10,MSE24068,M,284,Florida Bay,Marathon,Verified; Not Necropsied
+Lee,2024-12-13,MSW24130,M,309,Caloosahatchee River,Ft. Myers,Undetermined: Other
+Brevard,2024-12-14,MEC24146,M,136,Banana River,Merritt Island,Perinatal (<= 150 cm)
+Brevard,2024-12-15,MEC24147,M,167,Indian River,Port St. John,Natural: Other
+Lee,2024-12-15,MSW24131,F,278,Ten Mile Canal,Ft. Myers,Verified; Not Necropsied
+Charlotte,2024-12-15,MSW24132,F,294,Lemon Bay,Englewood,Undetermined: Too Decomposed
+Citrus,2024-12-18,MNW24128,F,318,Kings Bay,Crystal River,Natural: Other
+Citrus,2024-12-18,MNW24129,F,222,Homosassa River,Homosassa,Natural: Other
+Citrus,2024-12-19,MNW24130,U,200,Crystal Bay,Crystal River,Perinatal (<= 150 cm)
+Dixie,2024-12-20,MNW24131,F,270,Gulf of Mexico,Horseshoe Beach,Natural: Other
+Sarasota,2024-12-20,MSW24133,M,190,Intracoastal Waterway,Venice,Natural: Other
+Duval,2024-12-21,MNE24055,F,266,Ortega River,Jacksonville,Natural: Cold Stress
+Manatee,2024-12-21,SWFTm2463,F,178,Manatee River,Palmetto,Verified; Not Necropsied
+Charlotte,2024-12-22,LPZ103706,M,155,Lemon Bay,Englewood,Natural: Other
+Duval,2024-12-22,MNE24056,M,225,Goodbys Creek,Jacksonville,Natural: Cold Stress
+Wakulla,2024-12-22,MNW24132,M,300,St. Marks River,Crawfordville,Verified; Not Necropsied
+Duval,2024-12-25,MNE24058,U,290,Nassau Sound,Jacksonville,Verified; Not Necropsied
+Hernando,2024-12-25,MNW24133,F,350,Weeki Wachee River,Spring Hill,Verified; Not Necropsied
+Duval,2024-12-26,MNE24057,M,265,St. Johns River,Jacksonville,Natural: Cold Stress
+Okeechobee,2024-12-26,MSE24069,F,196,Taylor Creek,Okeechobee,Human Related: Watercraft Collision
+Manatee,2024-12-27,MNW24134,M,293,Manatee River,Bradenton,Human Related: Watercraft Collision
+Citrus,2024-12-27,MNW24135,U,150,Crystal Bay,Ozello,Perinatal (<= 150 cm)
+Collier,2024-12-27,MSW24134,F,241,Faka Union Canal,Naples,Human Related: Other
+Manatee,2024-12-28,MNW24136,U,120,Critical Bayou,Terra Ceia,Perinatal (<= 150 cm)
+Lee,2024-12-28,MSW24135,M,210,Tenmile Canal,Ft. Myers,Natural: Other
+Citrus,2024-12-29,MNW24137,U,245,Chassahowitzka River,Sugarmill Woods,Verified; Not Necropsied
+Brevard,2024-12-30,MEC24148,M,149,Eau Gallie River,Melbourne,Perinatal (<= 150 cm)
+Franklin,2024-12-30,MNW24139,M,320,Alligator Harbor,Alligator Point,Verified; Not Necropsied
+Pinellas,2024-12-31,MNW24138,M,100,Tampa Bay,St. Petersburg,Perinatal (<= 150 cm)
