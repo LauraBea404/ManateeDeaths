@@ -22,9 +22,9 @@ VALUES
 	('Natural: Cold Stress',14,13,17,47,64),
 	('Natural: Other',87,150,184,57,83),
 	('Verified; Not Necropsied',203,407,640,219,129),
-    ('Undetermined: Too Decomposed',44,39,22,67,92),
+	('Undetermined: Too Decomposed',44,39,22,67,92),
 	('Undetermined: Other',4,11,8,22,17),
-    ('Total Combined',555,800,1100,637,607);
+	('Total Combined',555,800,1100,637,607);
 SELECT * FROM manateedeaths.fiveyearcauses;
 -- Verify data uploaded correctly
 
@@ -62,7 +62,7 @@ FROM manateedeaths2024;
 -- Find any impossible measurements.  Manatees have been measured between 120 - 460cm.  Measurements less than 120cm may have been born premature, or may be missing a portion of the corpse.
 SELECT 
 	MIN(Size_cm) AS min,
-    MAX(Size_cm) AS max
+	MAX(Size_cm) AS max
 FROM manateedeaths2024;
 
 -- Find missing data using the following 2 code chunks
