@@ -1,0 +1,276 @@
+-- CASE STUDY Purpose- Review manatee deaths in Florida. Study patterns and draw conclusions that provide insight into preventing future deaths. Data soured from the FWC Manatee Mortality Report.
+-- Convert Report from pdf to csv.  Modify date format to yyyy-mm-dd
+
+CREATE DATABASE manateedeaths;
+USE manateedeaths;
+
+-- Create table and add data totaling causes of death over 5 years.
+CREATE TABLE fiveyearcauses(
+	`Probable_Cause` TEXT,
+    `2023` INT,
+    `2022` INT,
+    `2021` INT,
+    `2020` INT,
+    `2019` INT
+);
+INSERT INTO fiveyearcauses
+VALUES
+	('Human Related: Watercraft Collision',89,78,104,91,137),
+	('Human Related: Flood Gate/Canal Lock',8,19,8,11,5),
+	('Human Related: Other',15,12,8,15,9),
+	('Perinatal (<= 150 cm)',91,71,109,108,71),
+	('Natural: Cold Stress',14,13,17,47,64),
+	('Natural: Other',87,150,184,57,83),
+	('Verified; Not Necropsied',203,407,640,219,129),
+    ('Undetermined: Too Decomposed',44,39,22,67,92),
+	('Undetermined: Other',4,11,8,22,17),
+    ('Total Combined',555,800,1100,637,607);
+SELECT * FROM manateedeaths.fiveyearcauses;
+-- Verify data uploaded correctly
+
+-- Create another table with 2024 data.  Use the shortcut method.
+-- Right click on manateedeaths Schema and choose Table Data Import Wizard
+-- Upload csv file
+-- Verify Column Field Types
+-- Execute Import
+SELECT * FROM manateedeaths.manateedeaths2024;
+-- Verify data uploaded correctly
+
+-- Clean imported data using the following methods
+
+-- Find and remove any duplicate manatees using the following 3 code chunks
+UPDATE manateedeaths2024
+SET Field_ID = TRIM(Field_ID);
+
+SELECT Field_ID
+FROM manateedeaths2024
+WHERE LENGTH(Field_ID) <8 OR LENGTH(Field_ID) >9;
+
+SELECT Field_ID
+FROM manateedeaths2024
+GROUP BY Field_ID 
+HAVING COUNT(*) > 1;
+
+-- Find any typos
+SELECT DISTINCT Probable_Cause
+FROM manateedeaths2024;
+
+-- Find any typos
+SELECT DISTINCT Sex
+FROM manateedeaths2024;
+
+-- Find any impossible measurements.  Manatees have been measured between 120 - 460cm.  Measurements less than 120cm may have been born premature, or may be missing a portion of the corpse.
+SELECT 
+	MIN(Size_cm) AS min,
+    MAX(Size_cm) AS max
+FROM manateedeaths2024;
+
+-- Find missing data using the following 2 code chunks
+SELECT *
+FROM manateedeaths2024
+WHERE 'Date' IS NULL
+	OR Field_ID IS NULL
+    OR Sex IS NULL
+    OR Size_cm IS NULL
+    OR Probable_Cause IS NULL;
+    
+SELECT *
+FROM manateedeaths2024
+WHERE 'Date' ='0'
+	OR Field_ID ='0'
+    OR Sex ='0'
+    OR Size_cm ='0'
+    OR Probable_Cause ='0';
+
+
+-- Analyze the data
+-- What were the leading causes of manatee deaths in 2024?
+SELECT 
+    Probable_Cause,
+    COUNT(*) AS Counted,
+    (SELECT COUNT(*) FROM manateedeaths2024) AS Total,
+    ROUND((COUNT(*) / (SELECT COUNT(*) FROM manateedeaths2024)) * 100, 2) AS Percentage
+FROM manateedeaths2024       
+GROUP BY Probable_Cause
+ORDER BY Counted DESC;
+
+-- To what degree are humans responsible for manatee deaths, as opposed to natural causes?
+SELECT
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Probable_Cause` IN (
+            'Human Related: Other',
+            'Human Related: Watercraft Collision',
+            'Human Related: Flood Gate/Canal Lock'
+        )
+    ) AS Human_Related,
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Probable_Cause` IN (
+            'Perinatal (<= 150 cm)',
+            'Natural: Other',
+            'Natural: Cold Stress'
+        )
+    ) AS Natural_Causes;
+    
+-- Are deaths more common in certain months?
+SELECT
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-01%')
+    ) AS Jan,
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-02%')
+    ) AS Feb,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-03%')
+    ) AS Mar,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-04%')
+    ) AS Apr,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-05%')
+    ) AS May,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-06%')
+    ) AS Jun,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-07%')
+    ) AS Jul,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-08%')
+    ) AS Aug,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-09%')
+    ) AS Sep,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-10%')
+    ) AS Oct,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-11%')
+    ) AS Nov,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE `Date` LIKE ('2024-12%')
+    ) AS 'Dec'
+;
+
+-- Is there a substantial difference in the number of deaths of males vs females?
+SELECT
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE Sex IN ('M')
+    ) AS Male,
+    (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE Sex IN ('F')
+    ) AS Female,
+        (
+        SELECT COUNT(*)
+        FROM manateedeaths.manateedeaths2024
+        WHERE Sex IN ('U')
+    ) AS Unidentified;
+    
+-- The average newborn is 130cm and the average adult is 270 to 300cm, with females tending to be larger than males. 
+-- Are deaths more common in smaller manatees or larger?
+SELECT
+  CASE
+    WHEN Size_cm < 270 THEN 'Small'
+    ELSE 'Large'
+  END AS Size_of_Corpse,
+  COUNT(*) AS Count
+FROM manateedeaths.manateedeaths2024
+GROUP BY
+  CASE
+    WHEN Size_cm < 270 THEN 'Small'
+    ELSE 'Large'
+  END;
+  
+  -- How does the leading causes of death in 2024 compare to the last 5 years?
+SELECT 
+    f.Probable_Cause,
+    -- 2024
+    COUNT(m.Probable_Cause) AS `2024 Counted`,
+    (SELECT COUNT(*) FROM manateedeaths2024) AS `2024 Total`,
+    ROUND(COUNT(m.Probable_Cause) / (SELECT COUNT(*) FROM manateedeaths2024) * 100, 2) AS `2024 Percentage`,
+    -- 2023
+    MAX(f.`2023`) AS `2023 Counted`,
+    (SELECT SUM(`2023`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') AS `2023 Total`,
+    ROUND(MAX(f.`2023`) / (SELECT SUM(`2023`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') * 100, 2) AS `2023 Percentage`,
+    -- 2022
+    MAX(f.`2022`) AS `2022 Counted`,
+    (SELECT SUM(`2022`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') AS `2022 Total`,
+    ROUND(MAX(f.`2022`) / (SELECT SUM(`2022`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') * 100, 2) AS `2022 Percentage`,
+    -- 2021
+    MAX(f.`2021`) AS `2021 Counted`,
+    (SELECT SUM(`2021`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') AS `2021 Total`,
+    ROUND(MAX(f.`2021`) / (SELECT SUM(`2021`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') * 100, 2) AS `2021 Percentage`,
+    -- 2020
+    MAX(f.`2020`) AS `2020 Counted`,
+    (SELECT SUM(`2020`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') AS `2020 Total`,
+    ROUND(MAX(f.`2020`) / (SELECT SUM(`2020`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') * 100, 2) AS `2020 Percentage`,
+    -- 2019
+    MAX(f.`2019`) AS `2019 Counted`,
+    (SELECT SUM(`2019`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') AS `2019 Total`,
+    ROUND(MAX(f.`2019`) / (SELECT SUM(`2019`) FROM fiveyearcauses WHERE Probable_Cause != 'Total Combined') * 100, 2) AS `2019 Percentage`
+FROM 
+    fiveyearcauses f
+LEFT JOIN 
+    manateedeaths2024 m ON f.Probable_Cause = m.Probable_Cause
+WHERE 
+    f.Probable_Cause != 'Total Combined'
+GROUP BY 
+    f.Probable_Cause;
+    
+    
+-- Conclusion and Recommendations
+
+-- Based on these findings, we see that 31.50%, almost 1/3 of manatee deaths, are reported and verified, but a complete necropsy was not performed.
+-- The most common known cause of death is Perinatal, in which Manatees were less than or equal to 150 cm (5 feet) in total length and which were not determined to have died due to human-related causes.
+-- The second most common known cause of death is Watercraft Collision.
+-- Of the verified deaths in 2024, 123 were Human Related, while 224 were Natural Causes.  
+
+-- We can see that manatee deaths are least common during the fall months, and most common during the Winter and Spring months.  
+-- Further study would be recommended to conclude whether this is due to an increase in tourism to Florida during the colder months, and a decrease in tourism during the hotter months and back-to-school months.  
+-- Additionally, I would recommend a study in migrational patterns of manatees between the southern waters during warm months to the warm freshwater springs in northern Florida during the cold months.
+
+-- Of the identified deaths in 2024, 238 were female, and 259 were male.  There is no significant difference.
+
+-- Deaths appear to be more common in smaller manatees (356) than larger manatees (209).
+-- However, further data is needed to determine whether these measurements are of the whole manatee, or if a portion of the corpse was missing.  Smaller sized measurements may not equate to infant manatees.
+-- I would recommend collecting data on the intactness of corpses in future necropsies moving forward.
+
+-- Total number of deaths has remained consistent at approximately 600 deaths per year since 2019.  However, 2021 showed a large spike in deaths at 1100, which declined to 800 in 2022, and then remained constant around the 600 mark again. 
+-- The leading cause of death, perinatal, has been on the rise, from an average of 13%, up to 27% in 2024.
+-- Watercraft Collisions dropped from 23% to 9% during 2021 and 2022, but have been on the rise again, now at 17% in 2024.  In order to determine causation, I would recommend further research into the effect of Covid on Watercraft use in Florida, amendments to manatee protection laws, and funds granted for manatee rescue efforts.
+-- Cold Stress has declined, from 11% in 2019 to 2% in 2024.  Further comparison with average air and water temperatures may reveal a link.
+
+-- Not Necropsied deaths rose to 58% of the data in 2021, but has been declining.
+-- In 2024, 178 manatees were not necropsied, resulting in almost 1/3 of our data to be Unknown.
+-- In order to fully comprehend the causes of manatee deaths, I would recommend efforts to necropsy 100% of verified manatee deaths in 2025.
